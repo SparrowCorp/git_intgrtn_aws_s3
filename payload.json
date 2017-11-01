@@ -1,0 +1,349 @@
+{
+  "ref": "refs/heads/stage",
+  "before": "6921ba5c5656dbb21d828c563cdeb70ddcf68a1a",
+  "after": "1b6b1b6e739621031f85db1f27adc267706292b9",
+  "created": false,
+  "deleted": false,
+  "forced": false,
+  "base_ref": null,
+  "compare": "https://github.com/sparrowia/contentlayers/compare/6921ba5c5656...1b6b1b6e7396",
+  "commits": [
+    {
+      "id": "a3a9e6fa0970698c4363d3122684fe8af654bc4b",
+      "tree_id": "052ecfc7e06ed507b30d5299f721fd8c6b14e100",
+      "distinct": false,
+      "message": "google prod test commit",
+      "timestamp": "2017-11-01T15:31:39+05:30",
+      "url": "https://github.com/sparrowia/contentlayers/commit/a3a9e6fa0970698c4363d3122684fe8af654bc4b",
+      "author": {
+        "name": "dineshchd87",
+        "email": "dineshchd87@gmail.com",
+        "username": "dineshchd87"
+      },
+      "committer": {
+        "name": "dineshchd87",
+        "email": "dineshchd87@gmail.com",
+        "username": "dineshchd87"
+      },
+      "added": [
+
+      ],
+      "removed": [
+
+      ],
+      "modified": [
+        "application/controllers/Google.php"
+      ]
+    },
+    {
+      "id": "5dd690bf01bb46d4a7250d2dacdfb681f2e52e42",
+      "tree_id": "a4a61ed3d839120fe2050904bed1d5f441fb45e7",
+      "distinct": false,
+      "message": "Merge pull request #340 from sparrowia/cl-308\n\ngoogle prod test commit",
+      "timestamp": "2017-11-01T15:32:52+05:30",
+      "url": "https://github.com/sparrowia/contentlayers/commit/5dd690bf01bb46d4a7250d2dacdfb681f2e52e42",
+      "author": {
+        "name": "dineshchd87",
+        "email": "32681437+dineshchd87@users.noreply.github.com",
+        "username": "dineshchd87"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "username": "web-flow"
+      },
+      "added": [
+
+      ],
+      "removed": [
+
+      ],
+      "modified": [
+        "application/controllers/Google.php"
+      ]
+    },
+    {
+      "id": "fe2aff3bf3455784148adcb512a119c93c21ab4c",
+      "tree_id": "df88e6632762b9e190d17ed7ce789d2c26d9763c",
+      "distinct": false,
+      "message": "https://contentlayers.atlassian.net/browse/CL-324?filter=-1",
+      "timestamp": "2017-11-01T17:51:36+05:30",
+      "url": "https://github.com/sparrowia/contentlayers/commit/fe2aff3bf3455784148adcb512a119c93c21ab4c",
+      "author": {
+        "name": "Ankit Sakhareliya",
+        "email": "ankit.sakhareliya@gmail.com",
+        "username": "ankitsakhareliya"
+      },
+      "committer": {
+        "name": "Ankit Sakhareliya",
+        "email": "ankit.sakhareliya@gmail.com",
+        "username": "ankitsakhareliya"
+      },
+      "added": [
+        "public/css/croppie.css",
+        "public/js/croppie.js"
+      ],
+      "removed": [
+
+      ],
+      "modified": [
+        "application/controllers/Fb.php",
+        "application/controllers/Socialmedia.php",
+        "application/controllers/User.php",
+        "application/views/front_end/default.php",
+        "application/views/front_end/settings/profile.php",
+        "public/css/bootstrap.min.css",
+        "public/js/script.js"
+      ]
+    },
+    {
+      "id": "ac9aef9c246d78ec5b40a84741680ae0a1f1d9fa",
+      "tree_id": "a6761a0da9910bce5f718fb7c54f0248b1ea1476",
+      "distinct": false,
+      "message": "Merge branch 'dev' of https://github.com/sparrowia/contentlayers",
+      "timestamp": "2017-11-01T17:52:16+05:30",
+      "url": "https://github.com/sparrowia/contentlayers/commit/ac9aef9c246d78ec5b40a84741680ae0a1f1d9fa",
+      "author": {
+        "name": "Ankit Sakhareliya",
+        "email": "ankit.sakhareliya@gmail.com",
+        "username": "ankitsakhareliya"
+      },
+      "committer": {
+        "name": "Ankit Sakhareliya",
+        "email": "ankit.sakhareliya@gmail.com",
+        "username": "ankitsakhareliya"
+      },
+      "added": [
+        "googlec5e95541be47caef.html"
+      ],
+      "removed": [
+
+      ],
+      "modified": [
+        "application/controllers/Google.php",
+        "application/views/front_end/support/faq.php"
+      ]
+    },
+    {
+      "id": "7226d8a8048d107096403a716db16373526d195d",
+      "tree_id": "a6761a0da9910bce5f718fb7c54f0248b1ea1476",
+      "distinct": false,
+      "message": "Merge pull request #342 from sparrowia/ankit_dev\n\nAnkit dev",
+      "timestamp": "2017-11-01T17:54:00+05:30",
+      "url": "https://github.com/sparrowia/contentlayers/commit/7226d8a8048d107096403a716db16373526d195d",
+      "author": {
+        "name": "Ankit Sakhareliya",
+        "email": "ankit.sakhareliya@gmail.com",
+        "username": "ankitsakhareliya"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "username": "web-flow"
+      },
+      "added": [
+        "public/css/croppie.css",
+        "public/js/croppie.js"
+      ],
+      "removed": [
+
+      ],
+      "modified": [
+        "application/controllers/Fb.php",
+        "application/controllers/Socialmedia.php",
+        "application/controllers/User.php",
+        "application/views/front_end/default.php",
+        "application/views/front_end/settings/profile.php",
+        "public/css/bootstrap.min.css",
+        "public/js/script.js"
+      ]
+    },
+    {
+      "id": "1b6b1b6e739621031f85db1f27adc267706292b9",
+      "tree_id": "a6761a0da9910bce5f718fb7c54f0248b1ea1476",
+      "distinct": true,
+      "message": "Merge pull request #343 from sparrowia/dev\n\nDev",
+      "timestamp": "2017-11-01T17:54:43+05:30",
+      "url": "https://github.com/sparrowia/contentlayers/commit/1b6b1b6e739621031f85db1f27adc267706292b9",
+      "author": {
+        "name": "Ankit Sakhareliya",
+        "email": "ankit.sakhareliya@gmail.com",
+        "username": "ankitsakhareliya"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "username": "web-flow"
+      },
+      "added": [
+        "public/css/croppie.css",
+        "public/js/croppie.js"
+      ],
+      "removed": [
+
+      ],
+      "modified": [
+        "application/controllers/Fb.php",
+        "application/controllers/Google.php",
+        "application/controllers/Socialmedia.php",
+        "application/controllers/User.php",
+        "application/views/front_end/default.php",
+        "application/views/front_end/settings/profile.php",
+        "public/css/bootstrap.min.css",
+        "public/js/script.js"
+      ]
+    }
+  ],
+  "head_commit": {
+    "id": "1b6b1b6e739621031f85db1f27adc267706292b9",
+    "tree_id": "a6761a0da9910bce5f718fb7c54f0248b1ea1476",
+    "distinct": true,
+    "message": "Merge pull request #343 from sparrowia/dev\n\nDev",
+    "timestamp": "2017-11-01T17:54:43+05:30",
+    "url": "https://github.com/sparrowia/contentlayers/commit/1b6b1b6e739621031f85db1f27adc267706292b9",
+    "author": {
+      "name": "Ankit Sakhareliya",
+      "email": "ankit.sakhareliya@gmail.com",
+      "username": "ankitsakhareliya"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "username": "web-flow"
+    },
+    "added": [
+      "public/css/croppie.css",
+      "public/js/croppie.js"
+    ],
+    "removed": [
+
+    ],
+    "modified": [
+      "application/controllers/Fb.php",
+      "application/controllers/Google.php",
+      "application/controllers/Socialmedia.php",
+      "application/controllers/User.php",
+      "application/views/front_end/default.php",
+      "application/views/front_end/settings/profile.php",
+      "public/css/bootstrap.min.css",
+      "public/js/script.js"
+    ]
+  },
+  "repository": {
+    "id": 97161360,
+    "name": "contentlayers",
+    "full_name": "sparrowia/contentlayers",
+    "owner": {
+      "name": "sparrowia",
+      "email": "matt@sparrowia.com",
+      "login": "sparrowia",
+      "id": 30057834,
+      "avatar_url": "https://avatars3.githubusercontent.com/u/30057834?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sparrowia",
+      "html_url": "https://github.com/sparrowia",
+      "followers_url": "https://api.github.com/users/sparrowia/followers",
+      "following_url": "https://api.github.com/users/sparrowia/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sparrowia/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sparrowia/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sparrowia/subscriptions",
+      "organizations_url": "https://api.github.com/users/sparrowia/orgs",
+      "repos_url": "https://api.github.com/users/sparrowia/repos",
+      "events_url": "https://api.github.com/users/sparrowia/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sparrowia/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "private": true,
+    "html_url": "https://github.com/sparrowia/contentlayers",
+    "description": "contentlayers.com",
+    "fork": false,
+    "url": "https://github.com/sparrowia/contentlayers",
+    "forks_url": "https://api.github.com/repos/sparrowia/contentlayers/forks",
+    "keys_url": "https://api.github.com/repos/sparrowia/contentlayers/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/sparrowia/contentlayers/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/sparrowia/contentlayers/teams",
+    "hooks_url": "https://api.github.com/repos/sparrowia/contentlayers/hooks",
+    "issue_events_url": "https://api.github.com/repos/sparrowia/contentlayers/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/sparrowia/contentlayers/events",
+    "assignees_url": "https://api.github.com/repos/sparrowia/contentlayers/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/sparrowia/contentlayers/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/sparrowia/contentlayers/tags",
+    "blobs_url": "https://api.github.com/repos/sparrowia/contentlayers/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/sparrowia/contentlayers/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/sparrowia/contentlayers/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/sparrowia/contentlayers/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/sparrowia/contentlayers/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/sparrowia/contentlayers/languages",
+    "stargazers_url": "https://api.github.com/repos/sparrowia/contentlayers/stargazers",
+    "contributors_url": "https://api.github.com/repos/sparrowia/contentlayers/contributors",
+    "subscribers_url": "https://api.github.com/repos/sparrowia/contentlayers/subscribers",
+    "subscription_url": "https://api.github.com/repos/sparrowia/contentlayers/subscription",
+    "commits_url": "https://api.github.com/repos/sparrowia/contentlayers/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/sparrowia/contentlayers/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/sparrowia/contentlayers/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/sparrowia/contentlayers/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/sparrowia/contentlayers/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/sparrowia/contentlayers/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/sparrowia/contentlayers/merges",
+    "archive_url": "https://api.github.com/repos/sparrowia/contentlayers/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/sparrowia/contentlayers/downloads",
+    "issues_url": "https://api.github.com/repos/sparrowia/contentlayers/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/sparrowia/contentlayers/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/sparrowia/contentlayers/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/sparrowia/contentlayers/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/sparrowia/contentlayers/labels{/name}",
+    "releases_url": "https://api.github.com/repos/sparrowia/contentlayers/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/sparrowia/contentlayers/deployments",
+    "created_at": 1499976907,
+    "updated_at": "2017-07-13T20:22:59Z",
+    "pushed_at": 1509539084,
+    "git_url": "git://github.com/sparrowia/contentlayers.git",
+    "ssh_url": "git@github.com:sparrowia/contentlayers.git",
+    "clone_url": "https://github.com/sparrowia/contentlayers.git",
+    "svn_url": "https://github.com/sparrowia/contentlayers",
+    "homepage": null,
+    "size": 15881,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "PHP",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "open_issues_count": 1,
+    "forks": 0,
+    "open_issues": 1,
+    "watchers": 0,
+    "default_branch": "master",
+    "stargazers": 0,
+    "master_branch": "master"
+  },
+  "pusher": {
+    "name": "ankitsakhareliya",
+    "email": "ankit.sakhareliya@gmail.com"
+  },
+  "sender": {
+    "login": "ankitsakhareliya",
+    "id": 18410358,
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18410358?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ankitsakhareliya",
+    "html_url": "https://github.com/ankitsakhareliya",
+    "followers_url": "https://api.github.com/users/ankitsakhareliya/followers",
+    "following_url": "https://api.github.com/users/ankitsakhareliya/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ankitsakhareliya/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ankitsakhareliya/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ankitsakhareliya/subscriptions",
+    "organizations_url": "https://api.github.com/users/ankitsakhareliya/orgs",
+    "repos_url": "https://api.github.com/users/ankitsakhareliya/repos",
+    "events_url": "https://api.github.com/users/ankitsakhareliya/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ankitsakhareliya/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+}
