@@ -239,7 +239,7 @@
                         "Ref": "DockerHostScaleUpPolicy"
                     }
                 ],
-                "AlarmDescription": "Scale-up if CPU > 90% for 10 minutes",
+                "AlarmDescription": "Scale-up if CPU > 80% for 10 minutes",
                 "ComparisonOperator": "GreaterThanThreshold",
                 "Dimensions": [
                     {
@@ -254,7 +254,7 @@
                 "Namespace": "AWS/EC2",
                 "Period": "300",
                 "Statistic": "Average",
-                "Threshold": "90"
+                "Threshold": "80"
             },
             "Type": "AWS::CloudWatch::Alarm"
         },
@@ -265,7 +265,7 @@
                         "Ref": "DockerHostScaleDownPolicy"
                     }
                 ],
-                "AlarmDescription": "Scale-down if CPU < 70% for 10 minutes",
+                "AlarmDescription": "Scale-down if CPU < 50% for 10 minutes",
                 "ComparisonOperator": "LessThanThreshold",
                 "Dimensions": [
                     {
@@ -280,7 +280,7 @@
                 "Namespace": "AWS/EC2",
                 "Period": "300",
                 "Statistic": "Average",
-                "Threshold": "70"
+                "Threshold": "50"
             },
             "Type": "AWS::CloudWatch::Alarm"
         },
