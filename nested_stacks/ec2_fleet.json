@@ -232,6 +232,87 @@
 				"SubnetId" : { "Fn::Select" : [ 3, { "Ref": "Subnets" } ] }
 			}
 		},
+        "DiskAlarmHigh": {
+            "Properties": {
+                "AlarmActions": [
+                    {
+                        "Ref": "DockerHostScaleUpPolicy"
+                    }
+                ],
+                "AlarmDescription": "Scale-up if Disk > 90% for 1 minute",
+                "ComparisonOperator": "GreaterThanThreshold",
+                "Dimensions": [
+                    {
+                        "Name": "AutoScalingGroupName",
+                        "Value": {
+                            "Ref": "DockerHostGroup"
+                        }
+                    }
+                ],
+                "EvaluationPeriods": "1",
+                "MetricName": "DiskSpaceUtilization",
+                "Namespace": "System/Linux",
+                "Period": "60",
+                "Statistic": "Sum",
+                "Threshold": "90",
+                "Unit": "Percent"
+            },
+            "Type": "AWS::CloudWatch::Alarm"
+        },
+        "MemoryAlarmHigh": {
+            "Properties": {
+                "AlarmActions": [
+                    {
+                        "Ref": "DockerHostScaleUpPolicy"
+                    }
+                ],
+                "AlarmDescription": "Scale-up if Memory > 80% for 10 minutes",
+                "ComparisonOperator": "GreaterThanThreshold",
+                "Dimensions": [
+                    {
+                        "Name": "AutoScalingGroupName",
+                        "Value": {
+                            "Ref": "DockerHostGroup"
+                        }
+                    }
+                ],
+                "EvaluationPeriods": "2",
+                "MetricName": "MemoryUtilization",
+                "Namespace": "System/Linux",
+                "Period": "300",
+                "Statistic": "Average",
+                "Threshold": "80",
+                "Unit": "Percent"
+            },
+            "Type": "AWS::CloudWatch::Alarm"
+        },
+        "MemoryAlarmLow": {
+            "Properties": {
+                "AlarmActions": [
+                    {
+                        "Ref": "DockerHostScaleDownPolicy"
+                    }
+                ],
+                "AlarmDescription": "Scale-down if Memory < 50% for 10 minutes",
+                "ComparisonOperator": "LessThanThreshold",
+                "Dimensions": [
+                    {
+                        "Name": "AutoScalingGroupName",
+                        "Value": {
+                            "Ref": "DockerHostGroup"
+                        }
+                    }
+                ],
+                "EvaluationPeriods": "2",
+                "MetricName": "MemoryUtilization",
+                "Namespace": "System/Linux",
+                "Period": "300",
+                "Statistic": "Average",
+                "Threshold": "50",
+                "Unit": "Percent"
+            },
+            "Type": "AWS::CloudWatch::Alarm"
+        },
         "CPUAlarmHigh": {
             "Properties": {
                 "AlarmActions": [
@@ -490,6 +571,15 @@
                                     "Action": "logs:*",
                                     "Effect": "Allow",
                                     "Resource": "*"
+                                },
+                                {
+                                    "Action": [
+										"cloudwatch:PutMetricData",
+										"cloudwatch:GetMetricStatistics",
+										"cloudwatch:ListMetrics"
+									],
+                                    "Effect": "Allow",
+                                    "Resource": "*"
                                 }
                             ],
                             "Version": "2012-10-17"
@@ -704,6 +794,11 @@
                                 "apt-get install -y docker-engine\n",
                                 "service docker restart\n",
                                 "pip install docker-compose\n",
+                                "export LC_CTYPE=en_US.UTF-8\n",
+                                "export LC_ALL=en_US.UTF-8\n",
+                                "apt-get install -y unzip libwww-perl libdatetime-perl\n",
+								"curl -o /root/CloudWatchMonitoringScripts-1.2.1.zip http://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-1.2.1.zip && unzip -d /root/ /root/CloudWatchMonitoringScripts-1.2.1.zip\n",
+								"(echo \"* * * * * /root/aws-scripts-mon/mon-put-instance-data.pl --mem-util --mem-used --mem-avail --disk-space-util --disk-space-used --disk-space-avail --disk-path=/ --auto-scaling=only\") | crontab\n",
 								"export ENV=",
 								{
 									"Ref": "Environment"
